@@ -4,14 +4,486 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>web</title>
+    <link rel="stylesheet" href="/web.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
-  <body>
+  <body class="body" style="height: 600px">
+    <!-- heading -->
+    <div class="container-fluid p-5" style="background-color: blue">
+      <div class="text-center">
+        <img
+          src="./images/WS-Logo-Cream.webp"
+          style="width: 500px"
+          alt="Heading logo"
+        />
+      </div>
+      <div class="text-center text-white">
+        <h2 style="font-size: 100px; font-weight: bolder">
+          Your goals,delivered.
+        </h2>
+        <p class="h4 px-5">
+          Unlock the business growth you’re looking for with results-focused,
+          technology-backed solutions designed for small businesses and
+          agencies.
+        </p>
+      </div>
+    </div>
     <div class="container">
+      <!-- card and form -->
       <div class="row">
-        <div class="col">h1</div>
-        <div class="col">h2</div>
-        <div class="col">h3</div>
-        <div class="col">h4</div>
+        <div class="col col-12 col-lg-6">
+          <!-- creating  row for card -->
+          <div class="row mt-5">
+            <!-- card 1 -->
+            <div
+              class="col col-12 col-sm-5 m-3 card text-dark shadow"
+              style="background-color: rgb(223, 203, 177)"
+            >
+              <img
+                class="card-img-top mx-auto mt-4"
+                src="./images/Services-Stat-Icon-Leads.webp"
+                style="width: 50px"
+                alt="img1"
+              />
+              <div class="card-body mx-auto">
+                <h4 class="card-title" style="font-size: 35px">271 M</h4>
+                <p class="card-text">Leads Deliverred.</p>
+              </div>
+            </div>
+            <!-- card 2 -->
+            <div
+              class="col col-12 col-sm-5 m-3 card text-dark shadow"
+              style="background-color: rgb(223, 203, 177)"
+            >
+              <img
+                class="card-img-top mx-auto mt-4"
+                src="./images/Services-Stat-Icon-Leads.webp"
+                style="width: 50px"
+                alt="img1"
+              />
+              <div class="card-body mx-auto">
+                <h4 class="card-title" style="font-size: 35px">271 M</h4>
+                <p class="card-text">Leads Deliverred.</p>
+              </div>
+            </div>
+            <!-- card 3 -->
+            <div
+              class="col col-12 col-sm-5 m-3 card text-dark shadow"
+              style="background-color: rgb(223, 203, 177)"
+            >
+              <img
+                class="card-img-top mx-auto mt-4"
+                src="./images/Services-Stat-Icon-Leads.webp"
+                style="width: 50px"
+                alt="img1"
+              />
+              <div class="card-body mx-auto">
+                <h4 class="card-title" style="font-size: 35px">271 M</h4>
+                <p class="card-text">Leads Deliverred.</p>
+              </div>
+            </div>
+            <!-- card 4 -->
+            <div
+              class="col col-12 col-sm-5 m-3 card text-dark shadow"
+              style="background-color: rgb(223, 203, 177)"
+            >
+              <img
+                class="card-img-top mx-auto mt-4"
+                src="./images/Services-Stat-Icon-Leads.webp"
+                style="width: 50px"
+                alt="img1"
+              />
+              <div class="card-body mx-auto">
+                <h4 class="card-title" style="font-size: 35px">271 M</h4>
+                <p class="card-text">Leads Deliverred.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col col-12 col-lg-6 mt-4">
+          <div>
+            <form class="form" action="#">
+              <input
+                type="text"
+                class="form-control shadow mx-2 my-2"
+                placeholder="First Name"
+              />
+              <input
+                type="text"
+                class="form-control shadow mx-2 my-2"
+                placeholder="Last Name"
+              />
+              <input
+                type="text"
+                class="form-control shadow mx-2 my-2"
+                placeholder="Company Name"
+              />
+              <input
+                type="email"
+                class="form-control shadow mx-2 my-2"
+                placeholder="Email Address"
+              />
+              <input
+                type="text"
+                class="form-control shadow mx-2 my-2"
+                placeholder="Phone Number"
+              />
+              <input
+                type="text"
+                class="form-control shadow mx-2 my-2"
+                placeholder="Web Site"
+              />
+              <input
+                type="text"
+                class="form-control shadow mx-2 my-2"
+                placeholder="Are You An adviser "
+              />
+              <input
+                type="text"
+                class="form-control shadow mx-2 my-2"
+                placeholder="Monthly Total Spend "
+              />
+              <button
+                type="button"
+                class="btn btn-danger form-control shadow hover mx-2 my-2 p-2"
+              >
+                Get Your Free Demo
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- get found , scale your business , convert and keep customer -->
+      <div class="row my-5 text-center">
+        <div class="col card border-0">
+          <div class="card-img-top">
+            <img
+              src="./images/Services-Icon-Get-Found-1.webp"
+              style="height: 100px"
+              alt="img"
+            />
+          </div>
+          <div class="card-body">
+            <h1 class="card-title text-dark h1" style="font-weight: bold">
+              Get Found
+            </h1>
+
+            <h4
+              class="text-primary dropdown-toggle"
+              data-bs-toggle="collapse"
+              data-bs-target="#cl1"
+            >
+              Listing
+            </h4>
+
+            <p id="cl1" class="collapse h5 text-dark">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab
+              veniam eos nam consequatur ipsa voluptatum ut non eligendi animi
+              iste, natus at reiciendis velit in omnis recusandae. Molestiae,
+              alias maiores!
+            </p>
+
+            <div class="SEO">
+              <h4
+                class="text-primary dropdown-toggle"
+                data-bs-toggle="collapse
+              "
+                data-bs-target="#cl2"
+              >
+                SEO
+              </h4>
+              <p id="cl2" class="collapse">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab
+                veniam eos nam consequatur ipsa voluptatum ut non eligendi animi
+                iste, natus at reiciendis velit in omnis recusandae. Molestiae,
+                alias maiores!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col card border-0">
+          <div class="card-img-top">
+            <img
+              src="./images/Services-Icon-Convert-1.webp"
+              style="height: 100px"
+              alt="img"
+            />
+          </div>
+          <div class="card-body">
+            <h1 class="card-title text-dark h1" style="font-weight: bold">
+              Get Found
+            </h1>
+
+            <h4
+              class="text-primary dropdown-toggle"
+              data-bs-toggle="collapse"
+              data-bs-target="#cl3"
+            >
+              Listing
+            </h4>
+
+            <p id="cl3" class="collapse h5 text-dark">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab
+              veniam eos nam consequatur ipsa voluptatum ut non eligendi animi
+              iste, natus at reiciendis velit in omnis recusandae. Molestiae,
+              alias maiores!
+            </p>
+
+            <div class="SEO">
+              <h4
+                class="text-primary dropdown-toggle"
+                data-bs-toggle="collapse
+              "
+                data-bs-target="#cl4"
+              >
+                SEO
+              </h4>
+              <p id="cl4" class="collapse">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab
+                veniam eos nam consequatur ipsa voluptatum ut non eligendi animi
+                iste, natus at reiciendis velit in omnis recusandae. Molestiae,
+                alias maiores!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col card border-0">
+          <div class="card-img-top">
+            <img
+              src="./images/Services-Icon-Get-Found-1.webp"
+              style="height: 100px"
+              alt="img"
+            />
+          </div>
+          <div class="card-body">
+            <h1 class="card-title text-dark h1" style="font-weight: bold">
+              Get Found
+            </h1>
+
+            <h4
+              class="text-primary dropdown-toggle"
+              data-bs-toggle="collapse"
+              data-bs-target="#cl5"
+            >
+              Listing
+            </h4>
+
+            <p id="cl5" class="collapse h5 text-dark">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab
+              veniam eos nam consequatur ipsa voluptatum ut non eligendi animi
+              iste, natus at reiciendis velit in omnis recusandae. Molestiae,
+              alias maiores!
+            </p>
+
+            <div class="SEO">
+              <h4
+                class="text-primary dropdown-toggle"
+                data-bs-toggle="collapse
+              "
+                data-bs-target="#cl6"
+              >
+                SEO
+              </h4>
+              <p id="cl6" class="collapse">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab
+                veniam eos nam consequatur ipsa voluptatum ut non eligendi animi
+                iste, natus at reiciendis velit in omnis recusandae. Molestiae,
+                alias maiores!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- get a demo + image  -->
+      <div class="row bg-primary mt-5 p-5 rounded-4 text-white">
+        <div class="col col-lg-6 mt-lg-5">
+          <h1 style="font-size: 40px; font: bolder">
+            Get the power of <br />
+            LocaliQ behind you
+          </h1>
+          <p
+            style="
+              font-size: 30px;
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            "
+          >
+            Let us help you seize your potential.
+          </p>
+          <button type="button" class="form-control btn btn-danger mt-3">
+            Get a Demo
+          </button>
+        </div>
+        <div class="col col-lg-6">
+          <img
+            src="./images/Services-Page-LIQ-Box-1.webp"
+            style="width: 600px"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div class="container-fluid footer text-bg-dark text-white mt-5 p-5">
+      <div class="row p-5">
+        <div class="col-12 col-lg-6">
+          <img
+            src="./images/WS-Logo-Cream.webp"
+            style="width: 400px"
+            alt="img"
+          />
+        </div>
+        <div class="col-12 col-lg-6 mt-3">
+          <div class="row text-center">
+            <div class="col">
+              <div class="Free Tools mt-3">
+                <h5>
+                  <u style="text-decoration-color: blue">Free Tool</u>
+                </h5>
+                <a class="text-white text-decoration-none" href="#"
+                  >Google Ads Grader</a
+                ><a class="text-white text-decoration-none" href="#"
+                  >Facebook Ads Grader</a
+                ><a class="text-white text-decoration-none" href="#"
+                  >Free Keyword Tool</a
+                ><a class="text-white text-decoration-none" href="#"
+                  >Website Grader</a
+                >
+              </div>
+              <div class="Explore Topics mt-3">
+                <h5>
+                  <u style="text-decoration-color: blue">Explore Topics</u>
+                </h5>
+                <a class="text-white text-decoration-none" href="#"
+                  >CopyWriting</a
+                ><a class="text-white text-decoration-none" href="#"
+                  >Facebook Ads</a
+                ><a class="text-white text-decoration-none" href="#"
+                  >Industry News & Insights</a
+                ><a class="text-white text-decoration-none" href="#"
+                  >Instagram</a
+                >
+                <a class="text-white text-decoration-none" href="#"
+                  >Lead Genaration</a
+                >
+                <a class="text-white text-decoration-none" href="#"
+                  >Marketing Ideas</a
+                >
+
+                <a class="text-white text-decoration-none" href="#"
+                  >Marketing Ideas</a
+                >
+
+                <a class="text-white text-decoration-none" href="#"
+                  >Marketing Ideas</a
+                >
+
+                <a class="text-white text-decoration-none" href="#"
+                  >Marketing Ideas</a
+                >
+
+                <a class="text-white text-decoration-none" href="#"
+                  >Marketing Ideas</a
+                >
+              </div>
+            </div>
+            <div class="col">
+              <div class="Learn mt-3">
+                <h5>
+                  <u style="text-decoration-color: blue">Learn</u>
+                </h5>
+                <a class="text-white text-decoration-none" href="#"
+                  >Google Ads Grader</a
+                ><a class="text-white text-decoration-none" href="#"
+                  >Facebook Ads Grader</a
+                ><a class="text-white text-decoration-none" href="#"
+                  >Free Keyword Tool</a
+                ><a class="text-white text-decoration-none" href="#"
+                  >Website Grader</a
+                >
+              </div>
+              <div class="Marketing Tips mt-3">
+                <h5>
+                  <u style="text-decoration-color: blue">Marketing Tips</u>
+                </h5>
+                <a class="text-white text-decoration-none" href="#"
+                  >CopyWriting</a
+                ><a class="text-white text-decoration-none" href="#"
+                  >Facebook Ads</a
+                ><a class="text-white text-decoration-none" href="#"
+                  >Industry News & Insights</a
+                ><a class="text-white text-decoration-none" href="#"
+                  >Instagram</a
+                >
+                <a class="text-white text-decoration-none" href="#"
+                  >Lead Genaration</a
+                >
+                <a class="text-white text-decoration-none" href="#"
+                  >Marketing Ideas</a
+                >
+
+                <a class="text-white text-decoration-none" href="#"
+                  >Marketing Ideas</a
+                >
+
+                <a class="text-white text-decoration-none" href="#"
+                  >Marketing Ideas</a
+                >
+
+                <a class="text-white text-decoration-none" href="#"
+                  >Marketing Ideas</a
+                >
+
+                <a class="text-white text-decoration-none" href="#"
+                  >Marketing Ideas</a
+                >
+              </div>
+            </div>
+            <div class="col">
+              <div class="Company mt-3">
+                <h5>
+                  <u style="text-decoration-color: blue">Company</u>
+                </h5>
+                <a class="text-white text-decoration-none" href="#"
+                  >About WordStream</a
+                ><a class="text-white text-decoration-none" href="#"
+                  >Agency Solution</a
+                ><a class="text-white text-decoration-none" href="#">Careers</a>
+              </div>
+              <div class="Contact Us mt-3">
+                <h5>
+                  <u style="text-decoration-color: blue">Contact Us</u>
+                </h5>
+                <a class="text-white text-decoration-none" href="#"
+                  >873.342.436.356</a
+                >
+                <a class="text-white text-decoration-none" href="#"
+                  >+1.324668.345.234</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>
